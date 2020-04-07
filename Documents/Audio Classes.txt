@@ -1,0 +1,39 @@
+Audio Classes
+
+
+mergedActivities = ['Drinking', 'Eating', 'LyingDown', 'OpeningPillContainer', 
+                          'PickingObject', 'Reading', 'SitStill', 'Sitting', 'Sleeping', 
+                          'StandUp', 'UseLaptop', 'UsingPhone', 'WakeUp', 'Walking', 
+                          'WaterPouring', 'Writing']
+    
+specificActivities = ['Calling', 'Clapping', 'Falling', 'Sweeping', 'WashingHand', 'WatchingTV']
+    
+enteringExiting = ['Entering', 'Exiting']
+
+
+During training 
+1. elements of 'specificActivities' have their respective labels. So, 'Calling' would have the label 'Calling' and so on. 
+
+2. both the elements of enteringExiting have the same label 'enteringExiting'
+
+3. all the elements of mergedActivities have the same label 'other'
+
+
+
+
+Analysis of the dataset:
+
+specificActivites:
+
+1. Calling: 
+
+Description:
+Human saying the words 'hello may I speak to ...'
+Ringtone of mobile phone followed by 'hello who is speaking...'
+
+
+Remark: 
+For each subject the ringtone, voice and dialogues are specific. 
+
+
+2. Clapping

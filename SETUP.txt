@@ -1,0 +1,34 @@
+----------------------------
+Repo Link: https://github.com/chathuranga95/SoundEventClassification
+----------------------------
+
+
+---------------------------------
+1. Create python environment
+---------------------------------
+Pre-requisite: Anaconda installed
+
+Create environment 'dcase2019'
+>> conda create --name dcase2019 python=3.6
+
+Activate the env
+>> conda activate dcase2019
+
+Install the following packages
+
+>> pip install tensorflow==2.0.0
+>> pip install keras
+>> pip install librosa
+>> pip install noisereduce
+>> pip install scipy
+
+
+---------------------------------
+2. Testing
+---------------------------------
+A trained model is already present. 
+
+Activate the environment 'dcase2019'
+
+Run the jupyter notebook 'continuous_sound_classification.ipynb'
+
